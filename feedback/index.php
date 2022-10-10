@@ -19,6 +19,7 @@ if (isset($_POST['submit'])){
     $feedbackMessage = $user->get_feedback_err()
     ;
 
+        // Check If No Error
     if (
             empty($nameMessage) &&
             empty($emailMessage) &&
